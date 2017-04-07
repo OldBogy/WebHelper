@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WebHelper.iml" filepath="$PROJECT_DIR$/.idea/modules/WebHelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../WebHelper/.idea/modules/WebHelper_main.iml" filepath="$PROJECT_DIR$/../WebHelper/.idea/modules/WebHelper_main.iml" group="WebHelper" />
+      <module fileurl="file://$PROJECT_DIR$/../WebHelper/.idea/modules/WebHelper_test.iml" filepath="$PROJECT_DIR$/../WebHelper/.idea/modules/WebHelper_test.iml" group="WebHelper" />
+    </modules>
+  </component>
+</project>
