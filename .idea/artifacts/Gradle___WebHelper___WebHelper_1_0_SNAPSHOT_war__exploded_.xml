@@ -1,20 +1,20 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="Gradle : WebHelper : WebHelper-1.0-SNAPSHOT.war (exploded)">
-    <output-path>$PROJECT_DIR$/../WebHelper/build/libs/exploded/WebHelper-1.0-SNAPSHOT.war</output-path>
+    <output-path>$PROJECT_DIR$/build/libs/exploded/WebHelper-1.0-SNAPSHOT.war</output-path>
     <properties id="gradle-properties">
-      <options external-project-path="$PROJECT_DIR$/../WebHelper">
+      <options external-project-path="$PROJECT_DIR$">
         <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
       </options>
     </properties>
     <root id="root">
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/../WebHelper/build/libs/exploded/WebHelper-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/build/libs/exploded/WebHelper-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="WebHelper_main/web/Web Gradle : WebHelper-1.0-SNAPSHOT.war" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="WebHelper_main" />
-          <element id="dir-copy" path="$PROJECT_DIR$/../WebHelper/build/resources/main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.3.6.RELEASE" />
@@ -27,6 +27,8 @@
           <element id="library" level="project" name="Gradle: javax.servlet.jsp.jstl:jstl:1.2" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.6" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.6" />
+          <element id="library" level="project" name="Gradle: org.json:json:20160810" />
+          <element id="library" level="project" name="Gradle: com.squareup.okhttp3:okhttp:3.6.0" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.6.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.3.6.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.3.6.RELEASE" />
@@ -37,7 +39,8 @@
           <element id="library" level="project" name="Gradle: org.apache.commons:commons-pool2:2.4.2" />
           <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.0" />
-          <element id="file-copy" path="$PROJECT_DIR$/../gradle_store/caches/modules-2/files-2.1/org.json/json/20160810/aca5eb39e2a12fddd6c472b240afe9ebea3a6733/json-20160810.jar" />
+          <element id="library" level="project" name="Gradle: com.squareup.okio:okio:1.11.0" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar" />
         </element>
       </element>
     </root>
